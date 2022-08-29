@@ -9,5 +9,8 @@ npx hardhat help
 npx hardhat test
 GAS_REPORT=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.js
+
+npx hardhat clean
+npx hardhat compile
+npx hardhat run scripts/deployRoboPunks.js --network mumbai
 ```
